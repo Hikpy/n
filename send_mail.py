@@ -19,7 +19,7 @@ message = MIMEText(content, 'plain', 'utf-8')
 message['From'] = Header("大冲小浪", 'utf-8')  
 message['To'] =  Header("you", 'utf-8')  
   
-subject = '服务器通知:n3服务宕机了'       # 标题     
+subject = '服务器通知:n4服务宕机了'       # 标题     
 message['Subject'] = Header(subject, 'utf-8')
 try:  
   smtpObj = smtplib.SMTP_SSL(mail_host, 465)   
